@@ -33,13 +33,14 @@ export default function About() {
         <motion.div className="about__header" {...fadeInUp}>
           <span className="section-label">About Me</span>
           <h2 className="section-title">
-            I build systems that{' '}
+            I build systems that{" "}
             <span className="gradient-text">perform at scale</span>
           </h2>
           <p className="section-subtitle">
-            Senior Software Engineer with 7+ years of experience crafting high-performance
-            applications, scalable backend systems, and exceptional user experiences.
-            Currently helping startups and enterprises ship better products at Proximity Works.
+            Senior Software Engineer with 6+ years of experience crafting
+            high-performance applications, scalable backend systems, and
+            exceptional user experiences. Currently helping startups and
+            enterprises ship better products at Proximity Works.
           </p>
         </motion.div>
 
@@ -50,7 +51,7 @@ export default function About() {
               className="about__card glass-card"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-100px' }}
+              viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: i * 0.15 }}
             >
               <span className="about__card-icon">{item.icon}</span>
