@@ -38,7 +38,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.45 }}
         >
-          Senior Software Engineer building{' '}
+          Senior Software Engineer building{" "}
           <span className="hero__highlight">high-performance systems</span> that
           scale to millions. Specializing in React, Node.js, and cloud
           architecture.
@@ -52,7 +52,19 @@ export default function Hero() {
         >
           <a href="#projects" className="btn btn-primary">
             View My Work
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M7 17L17 7" />
+              <path d="M7 7h10v10" />
+            </svg>
           </a>
           <a href="#contact" className="btn btn-outline">
             Get In Touch
@@ -66,7 +78,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.75 }}
         >
           <div className="hero__stat">
-            <span className="hero__stat-value">7+</span>
+            <span className="hero__stat-value">6+</span>
             <span className="hero__stat-label">Years Experience</span>
           </div>
           <div className="hero__stat-divider" />
